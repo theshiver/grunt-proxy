@@ -1,14 +1,14 @@
 {
-  "name": "grunt-proxy",
+  "name": "@cancetin/grunt-proxy",
   "description": "Start proxy server",
-  "version": "0.0.3",
-  "repository": "https://github.com/tutukin/grunt-proxy",
-  "author": {
-    "name": "Andrei V. Toutoukine",
-    "email": "tut@isuct.ru"
+  "version": "0.0.4",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tutukin/grunt-proxy.git"
   },
-  "contributors":[
-    { "name": "Mark Smith", "url": "https://github.com/RallySoftware/grunt-proxy"}
+  "author": "Andrei V. Toutoukine <tut@isuct.ru>",
+  "contributors": [
+    "Mark Smith (https://github.com/RallySoftware/grunt-proxy)"
   ],
   "licenses": [
     {
@@ -33,11 +33,20 @@
     "grunt": "0.4.x",
     "grunt-mocha-test": "~0.6.3",
     "expect.js": "0.2.x",
-    "mock":"0.1.x",
-    "sinon":"1.6.x",
-    "grunt-contrib-watch":"0.3.x"
+    "mock": "0.1.x",
+    "sinon": "1.6.x",
+    "grunt-contrib-watch": "0.3.x"
   },
   "keywords": [
-    "gruntplugin","proxy"
-  ]
+    "gruntplugin",
+    "proxy"
+  ],
+  "bugs": {
+    "url": "https://github.com/tutukin/grunt-proxy/issues"
+  },
+  "homepage": "https://github.com/tutukin/grunt-proxy#readme",
+  "directories": {
+    "test": "test"
+  },
+  "license": "ISC"
 }
